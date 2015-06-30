@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.respond /にぼ/i, (msg) ->
+  robot.respond /.*にぼ.*/, (msg) ->
     rand = Math.floor((Math.random() * 10) + 1) / 2
 
     nibo
